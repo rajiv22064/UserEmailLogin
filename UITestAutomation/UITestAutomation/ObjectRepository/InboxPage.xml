@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ObjectRepositorySuite>
+  <ObjetRepository PageName="Gmail">
+    <Control Name="Inbox" IdentificationMethod="xpath" Value="//*[@aria-label = 'Inbox']" />
+  </ObjetRepository>
+
+  <ObjetRepository PageName="Yahoo">
+    <Control Name="Inbox" IdentificationMethod="xpath" Value="//*[contains(@title,'Inbox')]" />
+    <Control Name="EmailFolder" IdentificationMethod="xpath" Value="//*[@id='header-mail-button']" />
+  </ObjetRepository>
+</ObjectRepositorySuite>

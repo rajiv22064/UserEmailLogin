@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ObjectRepositorySuite>
+  <ObjetRepository PageName="Gmail">
+    <Control Name="UserNameTextBox" IdentificationMethod="xpath" Value="//input[@autocomplete='username']" />
+    <Control Name="PasswordTextBox" IdentificationMethod="xpath" Value="//input[@autocomplete='current-password']" />
+    <Control Name="NextButton" IdentificationMethod="xpath" Value="//*[@id='identifierNext']" />
+    <Control Name="LoginButton" IdentificationMethod="xpath" Value="//*[@id='passwordNext']" />
+  </ObjetRepository>
+
+  <ObjetRepository PageName="Yahoo">
+    <Control Name="UserNameTextBox" IdentificationMethod="xpath" Value="//*[@id='login-username']" />
+    <Control Name="PasswordTextBox" IdentificationMethod="xpath" Value="//*[@id='login-passwd']" />
+    <Control Name="NextButton" IdentificationMethod="xpath" Value="//*[@id='login-signin']" />
+    <Control Name="LoginButton" IdentificationMethod="xpath" Value="//*[@id='login-signin']" />
+  </ObjetRepository>
+</ObjectRepositorySuite>
